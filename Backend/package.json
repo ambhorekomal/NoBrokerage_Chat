@@ -1,0 +1,17 @@
+{
+    "name": "nobrokerage-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node server.js",
+        "etl": "node etl/load_csvs.js"
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0",
+        "dotenv": "^16.4.0",
+        "express": "^4.19.2",
+        "pg": "^8.11.3",
+        "cors": "^2.8.5"
+    }
+}
