@@ -1,0 +1,13 @@
+# Node.js / Backend
+node_modules/
+.env
+.env.local
+.DS_Store
+
+# CSVs (optional, if you don’t want them on GitHub)
+# backend/data/*.csv
+
+# Logs
+*.log
+# Backend env
+backend/.env
